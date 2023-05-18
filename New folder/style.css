@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    background-color: #679289;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+header span {
+    margin-right: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+nav{
+    background-color: #679289;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+nav a{
+    color:#F4C045 ;
+    margin: 0% 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.5s;
+    padding: 6px;
+
+}
+nav a:hover{
+    background-color: white;
+}
+.feature-product h2{
+    width: 100%;
+    
+    margin-top: 2em;
+}
+.feature-card{
+    padding: 12px;
+    margin: 6px;
+    width: 300px;
+    border: 2px solid #F4C095;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+}
+.feature-card h3{
+    color: #679289;
+}
+.feature-card button{
+    outline: none;
+    border: none;
+    background-color: #679289;
+    color: white;
+    font-weight: bold;
+    border-radius: px;
+}
+.feature-card:hover {
+    background-color: #d8d8d8;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.feature-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+
